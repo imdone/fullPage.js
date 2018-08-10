@@ -492,7 +492,7 @@ IScroll.prototype = {
             return;
         }
 
-        if ( this.options.preventDefault ) {    // increases performance on Android? TODO: check!
+        if ( this.options.preventDefault ) {    // increases performance on Android? TODO: check! id:1
             e.preventDefault();
         }
 
@@ -1037,7 +1037,7 @@ IScroll.prototype = {
         }
 
         if ( this.options.indicators ) {
-            // TODO: check concat compatibility
+            // TODO: check concat compatibility id:5
             indicators = indicators.concat(this.options.indicators);
         }
 
@@ -1045,7 +1045,7 @@ IScroll.prototype = {
             this.indicators.push( new Indicator(this, indicators[i]) );
         }
 
-        // TODO: check if we can use array.map (wide compatibility and performance issues)
+        // TODO: check if we can use array.map (wide compatibility and performance issues) id:8
         function _indicatorsMap (fn) {
             if (that.indicators) {
                 for ( var i = that.indicators.length; i--; ) {

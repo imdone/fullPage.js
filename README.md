@@ -1,3 +1,5 @@
+[![TODO board](https://imdone.io/api/1.0/projects/5b6e0926b548b83ccc32ea19/badge)](https://imdone.io/app#/board/imdone/fullPage.js)
+
 # fullPage.js
 ![preview](https://raw.github.com/alvarotrigo/fullPage.js/master/examples/imgs/intro.png)
 ![compatibility](https://raw.github.com/alvarotrigo/fullPage.js/master/examples/imgs/compatible.gif?v=2)
